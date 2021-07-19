@@ -4,6 +4,7 @@ public class Canary   extends Animal{
     public Canary(String _name, double _krilia) {
         super/*Animal*/(2, new Cover("Feathers", 1), new String("Canary"), _name);
         krilia = _krilia;
+
     }
 
     @Override
